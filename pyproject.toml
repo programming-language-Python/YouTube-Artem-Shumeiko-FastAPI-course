@@ -1,0 +1,20 @@
+[project]
+name = "youtube-artem-shumeiko-fastapi-course"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Rom1987",email = "maks3564195@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard] (>=0.133.0,<0.134.0)",
+    "aiosqlite (>=0.22.1,<0.23.0)",
+    "sqlalchemy (>=2.0.47,<3.0.0)",
+    "greenlet (>=3.5.2,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
